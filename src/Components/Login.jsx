@@ -7,17 +7,17 @@ export const Login = () => {
 
       <div className="container">
         <Form>
-          <Form.Text style={{fontSize:"30px", color:"black"}}> Sign In </Form.Text>
+          <Form.Text style={{fontSize:"30px", padding: "13.5vh" ,color:"white"}}> Ingresa tus Datos! </Form.Text>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label style={{color:"white"}}>Email Address: </Form.Label>
+            <Form.Label style={{color:"white" , marginTop:"20px"}}>Ingresa tu Email: </Form.Label>
             <Form.Control type="email" placeholder="Enter email" size="lg"/>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label style={{color:"white"}}>Password: </Form.Label>
+            <Form.Label style={{color:"white"}}>Ingresa tu Contraseña</Form.Label>
             <Form.Control type="password" placeholder="Password"  size="lg"/>
           </Form.Group>
-          <Button variant="primary" type="submit">
-            Submit
+          <Button variant="primary" type="submit" size="lg" style={{marginLeft:"40%", marginTop:"15px"}}>
+            Enviar
           </Button>
         </Form>
       </div>
