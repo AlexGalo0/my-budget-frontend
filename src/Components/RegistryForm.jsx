@@ -18,9 +18,9 @@ export const RegistryForm = () => {
               alert('Se Envio')
           }}
         >
-          <Form >
+          <Form>
             <div id='formulario'>
-            <label htmlFor="firstName" className="inputs" >Ingrese su Primer Nombre: </label>
+            <label htmlFor="firstName" className="inputs">Ingrese su Primer Nombre: </label>
             <Field type="name" name="firstName" placeholder="" />
         
             <label htmlFor="lastName" className="inputs" >Ingrese su Apellido: </label>
@@ -40,7 +40,7 @@ export const RegistryForm = () => {
               name="password"
               placeholder=""
             />
-            <button type="submit" id="boton">Enviar</button>
+            <button type="submit" id="boton" className="button-58">Enviar</button>
           </div>
           </Form>
         </Formik>
