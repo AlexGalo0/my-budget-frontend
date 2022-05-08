@@ -8,7 +8,7 @@ export const Login = () => {
 
       <div className="container">
         <Form>
-          <Form.Text style={{fontSize:"30px", padding: "13.5vh" ,color:"white"}}> Ingresa tus Datos! </Form.Text>
+          <Form.Text style={{fontSize:"30px", padding: "13.5vh" ,color:"white"}}> Inicia Sesión! </Form.Text>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label style={{color:"white" , marginTop:"20px"}}>Ingresa tu Email: </Form.Label>
             <Form.Control type="email" placeholder="Enter email" size="lg"/>

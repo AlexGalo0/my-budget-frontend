@@ -1,7 +1,7 @@
 import { Formik, Form, Field } from "formik";
 import React from "react";
 import "../RegistryForm.css";
-// import {} from "react-bootstrap";
+import {} from "react-bootstrap";
 
 export const RegistryForm = () => {
   return (
@@ -13,6 +13,9 @@ export const RegistryForm = () => {
             password: "",
             firstName: "",
             lastName: "",
+          }}
+          onSubmit={()=>{
+              alert('Se Envio')
           }}
         >
           <Form >
