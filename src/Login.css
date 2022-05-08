@@ -3,7 +3,7 @@
 } */
 
 body{
-	background-image: url('./Assets/cool-background.png');
+	
     background-size: cover;
 	font-family: 'Rubik', sans-serif;
 	background: linear-gradient(-45deg, #e35a31, #e73c7e, #23a6d5, #23d5ab);
