@@ -1,6 +1,6 @@
 import { Formik, Form, Field } from "formik";
 import React from "react";
-import "../RegistryForm.css";
+import '../Assets/RegistryForm'
 import {} from "react-bootstrap";
 
 export const RegistryForm = () => {
