@@ -20,6 +20,10 @@ export const Login = () => {
           <Button variant="primary" type="submit" size="lg" style={{marginLeft:"40%", marginTop:"15px"}}>
             Enviar
           </Button>
+          <Button variant="primary" type="submit" size="lg" style={{marginLeft:"17%", marginTop:"35px", fontSize:'20px'}}>
+            Inicia Sesión con Google
+          </Button>
+         
         </Form>
       </div>
     </>
