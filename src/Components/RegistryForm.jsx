@@ -1,12 +1,12 @@
 import { Formik, Form, Field } from "formik";
 import React from "react";
-import '../Assets/RegistryForm'
-import {} from "react-bootstrap";
+import '../Assets/RegistryForm.css'
+// import {} from "react-bootstrap";
 
 export const RegistryForm = () => {
   return (
     <>
-        <h1 id="titulo">Ingresa tus Datos para Registrarte!</h1>
+        <h1 id="titulo">Ingresa tus Datos para Registrarte</h1>
         <Formik
           initialValues={{
             email: "",
@@ -18,9 +18,24 @@ export const RegistryForm = () => {
               alert('Se Envio')
           }}
         >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
           <Form>
             <div id='formulario'>
-            <label htmlFor="firstName" className="inputs">Ingrese su Primer Nombre: </label>
+            <label htmlFor="firstName" className="inputs">Ingrese su Nombre: </label>
             <Field type="name" name="firstName" placeholder="" />
         
             <label htmlFor="lastName" className="inputs" >Ingrese su Apellido: </label>
@@ -38,6 +53,14 @@ export const RegistryForm = () => {
               type="password"
               id="password"
               name="password"
+              placeholder=""
+            />
+            
+            <label htmlFor="password" className="inputs" >Confirme su Contraseña: </label>
+            <Field
+              type="password"
+              id="password"
+              name="confirmPassword"
               placeholder=""
             />
             <button type="submit" id="boton" className="button-58">Enviar</button>
