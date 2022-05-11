@@ -1,3 +1,39 @@
-body{
-    background-color: red;
+body {
+  background-color: red;
+}
+
+#options {
+  margin: 22vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+/*  Botones  */
+.btn {
+  display: block;
+  margin: 40px 0;
+  width: 240px;
+  height: 80px;
+  border: none;
+  background-color: #00a8ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+  font-family: fantasy;
+}
+.btn1:hover {
+  transform: rotateX(15deg);
+  box-shadow: 0 15px 15px #00a8ff;
+}
+
+.btn2:hover {
+  transform: rotateX(-15deg);
+  box-shadow: 0 -15px 15px #00a8ff;
 }
