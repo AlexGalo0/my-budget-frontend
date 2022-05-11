@@ -1,13 +1,7 @@
-import React from "react";
-import "../Assets/LandingPage.css";
+import React from 'react'
+
 export const LandingPage = () => {
   return (
-    <>
-      <h1 id="titulo">Bienvenido a MyBudget!</h1>
-      <section id="options">
-        <button class="btn btn1">Registrate</button>
-        <button class="btn btn2">Inicia Sesion</button>
-      </section>
-    </>
-  );
-};
+    <h1>Landing Page</h1>
+  )
+}
