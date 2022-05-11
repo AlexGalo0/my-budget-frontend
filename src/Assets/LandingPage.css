@@ -1,8 +1,4 @@
 
-body {
-  background-color: red;
-}
-
 #options {
   margin: 22vh;
   display: flex;
@@ -20,7 +16,7 @@ body {
   width: 240px;
   height: 80px;
   border: none;
-  background-color: #00a8ff;
+  background-color: #09adff;
   color: #fff;
   font-size: 18px;
   border-radius: 6px;
