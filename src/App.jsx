@@ -6,6 +6,8 @@ import {Login} from './Components/Login'
 import { MainPage } from './Components/MainPage'
 import { UserAccount } from './Components/UserAccount'
 import { NoMatch } from './Components/NoMatch'
+// importar cs general
+import './Assets/General.css'
 export const App = () => {
   
   return (
