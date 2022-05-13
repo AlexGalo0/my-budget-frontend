@@ -2,6 +2,6 @@ import React from 'react'
 
 export const MainPage = () => {
   return (
-    <div>MainPage</div>
+    <h1>MainPage</h1>
   )
 }
