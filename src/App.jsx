@@ -8,6 +8,9 @@ import { UserAccount } from './Components/UserAccount'
 import { NoMatch } from './Components/NoMatch'
 // importar cs general
 import './Assets/General.css'
+import { Expenses } from './Components/Expenses'
+import { GeneralDash } from './Components/GeneralDash'
+import { Transfer } from './Components/Transfer'
 export const App = () => {
   
   return (
@@ -19,6 +22,10 @@ export const App = () => {
         <Route path='main' element={<MainPage />}></Route>
         <Route path='user' element={<UserAccount/>}></Route>
         <Route path='*' element={<NoMatch/>} /> 
+        <Route path='main/expenses' element={<Expenses />}></Route>
+        <Route path='main/dashboard' element={<GeneralDash />}></Route>
+        <Route path='main/transfer' element={<Transfer />}></Route>
+        
     </Routes>
 
     </>
