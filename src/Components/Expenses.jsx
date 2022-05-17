@@ -13,37 +13,105 @@ Fecha
 Monto */}
 
       <div id="filters">
-        <label htmlFor="select">Filter By : </label>
+        <label htmlFor="select">Ver:  </label>
         <select name="" id="">
           <option value="">Gastos</option>
           <option value="">Ingresos</option>
         </select>
       </div>
-      <div id="table">
-        <h4>Información de: Gastos</h4>
-        <table>
-          <tbody>
-            <tr>
-              <th>Nombre</th>
-              <th>ID</th>
-              <th>Fecha</th>
-              <th>Monto</th>
-            </tr>
-            <tr>
-              <td>UNAH Matricula</td>
-              <td>0801256568</td>
-              <td>5 de Febrero 2022</td>
-              <td>500 Lps</td>
-            </tr>
-            <tr>
-              <td>UNAH Matricula</td>
-              <td>0801256568</td>
-              <td>5 de Febrero 2022</td>
-              <td>500 Lps</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
+
+      <h2 id='tituloTabla'>Información de Gastos</h2>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Nombre de Transacción</th>
+            <th>ID</th>
+            <th>Fecha</th>
+            <th>Monto</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Content 1</td>
+            <td>Content 1</td>
+            <td>Content 1</td>
+            <td>Content 1</td>
+           
+        </tr>
+        <tr>
+            <td>Content 2</td>
+            <td>Content 2</td>
+            <td>Content 2</td>
+            <td>Content 2</td>
+            
+        </tr>
+        <tr>
+            <td>Content 3</td>
+            <td>Content 3</td>
+            <td>Content 3</td>
+            <td>Content 3</td>
+          
+        </tr>
+        <tr>
+            <td>Content 4</td>
+            <td>Content 4</td>
+            <td>Content 4</td>
+            <td>Content 4</td>
+          
+        </tr>
+        <tr>
+            <td>Content 5</td>
+            <td>Content 5</td>
+            <td>Content 5</td>
+            <td>Content 5</td>
+          
+        </tr>
+        <tr>
+            <td>Content 6</td>
+            <td>Content 6</td>
+            <td>Content 6</td>
+            <td>Content 6</td>
+           
+        </tr>
+        <tr>
+            <td>Content 7</td>
+            <td>Content 7</td>
+            <td>Content 7</td>
+            <td>Content 7</td>
+         
+        </tr>
+        <tr>
+            <td>Content 8</td>
+            <td>Content 8</td>
+            <td>Content 8</td>
+            <td>Content 8</td>
+        
+        </tr>
+        <tr>
+            <td>Content 9</td>
+            <td>Content 9</td>
+            <td>Content 9</td>
+            <td>Content 9</td>
+          
+        </tr>
+        <tr>
+            <td>Content 10</td>
+            <td>Content 10</td>
+            <td>Content 10</td>
+            <td>Content 10</td>
+           
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
     </main>
   );
 };
