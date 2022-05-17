@@ -8,10 +8,18 @@ export const MainPage = () => {
       </div>
 
       <div id="categories">
-        <button>View Expenses <br>
-        </br>and Incomes!</button>
-        <button>Transfer Money!</button>
-        <button>General Dashboard</button>
+        <button className='botones'>
+        <i class="fa-solid fa-wallet fa-6x"></i>
+          <p className="buttonText">View Expense and Incomes</p>
+        </button>
+        <button className='botones '>
+          <i class="fa-solid fa-money-bill-transfer fa-6x"></i>
+          <p className="buttonText">Transfer Money</p>
+        </button>
+        <button className='botones '>
+        <i class="fa-solid fa-coins fa-6x"></i>
+          <p className="buttonText">General Dashboard</p>
+        </button>
       </div>
     </main>
   );
