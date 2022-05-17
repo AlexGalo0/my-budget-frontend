@@ -11,6 +11,8 @@ import './Assets/General.css'
 import { Expenses } from './Components/Expenses'
 import { GeneralDash } from './Components/GeneralDash'
 import { Transfer } from './Components/Transfer'
+import { AddAcount } from './Components/AddAcount'
+import { AddExpenses } from './Components/AddExpenses'
 export const App = () => {
   
   return (
@@ -25,6 +27,8 @@ export const App = () => {
         <Route path='main/expenses' element={<Expenses />}></Route>
         <Route path='main/dashboard' element={<GeneralDash />}></Route>
         <Route path='main/transfer' element={<Transfer />}></Route>
+        <Route path='main/addacount' element={<AddAcount />}></Route>
+        <Route path='main/addexpense' element={<AddExpenses />}></Route>
         
     </Routes>
 
