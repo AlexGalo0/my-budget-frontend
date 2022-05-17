@@ -1,5 +1,5 @@
 import React from "react";
-import '../Assets/Expenses.css'
+import "../Assets/Expenses.css";
 export const Expenses = () => {
   return (
     <main>
@@ -7,8 +7,11 @@ export const Expenses = () => {
         <h1 id="welcome-text">Gastos e Ingresos</h1>
       </div>
 
+      {/* Nombre de Gasto/Ingreso
+ID
+Fecha
+Monto */}
 
-      
       <div id="filters">
         <label htmlFor="select">Filter By : </label>
         <select name="" id="">
@@ -17,23 +20,28 @@ export const Expenses = () => {
         </select>
       </div>
       <div id="table">
+        <h4>Información de: Gastos</h4>
         <table>
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email Address</th>
-          </tr>
-          <tr>
-            <td>Hillary</td>
-            <td>Nyakundi</td>
-            <td>tables@mail.com</td>
-          </tr>
-          <tr>
-            <td>Lary</td>
-            <td>Mak</td>
-            <td>developer@mail.com</td>
-          </tr>
-          
+          <tbody>
+            <tr>
+              <th>Nombre</th>
+              <th>ID</th>
+              <th>Fecha</th>
+              <th>Monto</th>
+            </tr>
+            <tr>
+              <td>UNAH Matricula</td>
+              <td>0801256568</td>
+              <td>5 de Febrero 2022</td>
+              <td>500 Lps</td>
+            </tr>
+            <tr>
+              <td>UNAH Matricula</td>
+              <td>0801256568</td>
+              <td>5 de Febrero 2022</td>
+              <td>500 Lps</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </main>
