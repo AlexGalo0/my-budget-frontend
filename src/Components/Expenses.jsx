@@ -7,13 +7,10 @@ export const Expenses = () => {
         <h1 id="welcome-text">Gastos e Ingresos</h1>
       </div>
 
-      {/* Nombre de Gasto/Ingreso
-ID
-Fecha
-Monto */}
 
       <div id="filters">
-        <label htmlFor="select">Ver:  </label>
+        <label htmlFor="select">Ver:  &nbsp;&nbsp; </label> {/* &nbsp;&nbsp; espacios */}
+
         <select name="" id="">
           <option value="">Gastos</option>
           <option value="">Ingresos</option>
@@ -35,10 +32,10 @@ Monto */}
         </thead>
         <tbody>
         <tr>
-            <td>Content 1</td>
-            <td>Content 1</td>
-            <td>Content 1</td>
-            <td>Content 1</td>
+            <td>Matricula UNAH</td>
+            <td>080120045123</td>
+            <td>5 De Noviembre</td>
+            <td>500 Lps.</td>
            
         </tr>
         <tr>
