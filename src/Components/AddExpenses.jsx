@@ -1,66 +1,68 @@
-import React from 'react'
-
+import React from "react";
+import "../Assets/AddExpense.css";
 export const AddExpenses = () => {
   return (
-   
-  
-    <main id="bg-registry">
-      <h1 id="titulo">Ingresa tus Datos para Registrarte</h1>
-
+    <main id="bg-addExpense">
+      <h1 id="titulo">Añade un Gasto / Ingreso </h1>
 
       <form id="formulario">
-        <label htmlFor="firstName" className="inputs">
-          Ingrese su Nombre:{" "}
+        <label htmlFor="date" className="inputs">
+          Ingrese el Tipo de Transaccion:
+        </label>
+        <select name="" id="">
+          <option value="">Gasto</option>
+          <option value="">Ingreso</option>
+        </select>
+
+
+        <label htmlFor="date" className="inputs">
+          Ingrese la Categoria del Gasto / Ingreso :
+        </label>
+        <select name="" id="">
+          <option value="">Abono Deuda</option>
+          <option value="">No tengo Idea</option>
+          <option value="">Que otra Categoria</option>
+          <option value="">ESPN+</option>
+
+
+        </select>
+
+        <label htmlFor="name" className="inputs">
+          Ingrese el Nombre del Gasto?:{" "}
         </label>
         <input
           type="text"
-          name="firstName"
+          name="name"
           // value={formValues.firstName}
           // onChange={handleChange}
-          placeholder="Nombre"
+          placeholder="Pago de Cuota de Carro"
         />
-        <label htmlFor="lastName" className="inputs">
-          Ingrese su Apellido:{" "}
+        <label htmlFor="date" className="inputs">
+          Ingrese la Fecha:{" "}
         </label>
         <input
-          type="text"
-          name="lastName"
+          type="date"
+          name="date"
           // value={formValues.lastName}
           // onChange={handleChange}
           placeholder="Apellido"
         />
 
         <label htmlFor="email" className="inputs">
-          Ingrese su Email:{" "}
+          Ingrese el Monto (LPS):{" "}
         </label>
         <input
           type="text"
           name="email"
           // value={formValues.email}
           // onChange={handleChange}
-          placeholder="Email"
+          placeholder="500"
         />
-
-        <label htmlFor="password" className="inputs">
-          Ingrese su Contraseña:{" "}
-        </label>
-        <input
-          type="password"
-          name="password"
-          // value={formValues.password}
-          // onChange={handleChange}
-          placeholder="Contraseña"
-        />
-
-        {/* <label htmlFor="password" className="inputs">
-          Confirme su Contraseña:{" "}
-        </label>
-        <input type="password" name="" id="" /> */}
 
         <button type="submit" id="boton" className="button-58">
           Enviar
         </button>
       </form>
     </main>
-  )
-}
+  );
+};

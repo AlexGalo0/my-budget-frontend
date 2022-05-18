@@ -29,7 +29,7 @@ export const RegistryForm = () => {
 
   const validate=(values)=>{
     const errors={}
-    const regex=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
+    const regex= /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
 
     if(!values.firstName) errors.firstName= "First Name is Required"
     if(!values.lastName) errors.lastName= "Last Name is Required"
